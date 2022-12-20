@@ -1,0 +1,67 @@
+Source: knotes
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Michael Meskes <meskes@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+           Sandro Knauß <hefee@debian.org>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.83.0~),
+               gettext,
+               libgrantlee5-dev (>= 5.2~),
+               libkf5akonadi-dev (>= 4:21.08.1~),
+               libkf5akonadinotes-dev (>= 4:21.08.1~),
+               libkf5akonadisearch-dev (>= 4:21.08.1~),
+               libkf5calendarutils-dev (>= 4:21.08.1~),
+               libkf5completion-dev (>= 5.83.0~),
+               libkf5config-dev (>= 5.83.0~),
+               libkf5configwidgets-dev (>= 5.83.0~),
+               libkf5coreaddons-dev (>= 5.83.0~),
+               libkf5crash-dev (>= 5.83.0~),
+               libkf5dnssd-dev (>= 5.83.0~),
+               libkf5doctools-dev (>= 5.83.0~),
+               libkf5globalaccel-dev (>= 5.83.0~),
+               libkf5grantleetheme-dev (>= 21.08.1~),
+               libkf5iconthemes-dev (>= 5.83.0~),
+               libkf5itemmodels-dev (>= 5.83.0~),
+               libkf5itemviews-dev (>= 5.83.0~),
+               libkf5kcmutils-dev (>= 5.83.0~),
+               libkf5kontactinterface-dev (>= 21.08.1~),
+               libkf5libkdepim-dev (>= 4:21.08.1~),
+               libkf5mime-dev (>= 21.08.1~),
+               libkf5newstuff-dev (>= 5.83.0~),
+               libkf5notifications-dev (>= 5.83.0~),
+               libkf5notifyconfig-dev (>= 5.83.0~),
+               libkf5parts-dev (>= 5.83.0~),
+               libkf5pimcommon-dev (>= 4:21.08.1~),
+               libkf5pimtextedit-dev (>= 21.08.1~),
+               libkf5textwidgets-dev (>= 5.83.0~),
+               libkf5widgetsaddons-dev (>= 5.83.0~),
+               libkf5windowsystem-dev (>= 5.83.0~),
+               libkf5xmlgui-dev (>= 5.83.0~),
+               libqt5x11extras5-dev (>= 5.7.0~),
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.15.0~),
+               xauth,
+               xsltproc,
+               xvfb,
+Standards-Version: 4.6.0
+Homepage: https://invent.kde.org/pim/knotes
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/knotes
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/knotes.git
+Rules-Requires-Root: no
+
+Package: knotes
+Architecture: any
+Depends: kdepim-runtime [amd64 arm64 armhf i386 mipsel],
+         libkf5akonadisearch-bin,
+         libkf5akonadisearch-plugins,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: sticky notes application
+ KNotes is a program that lets you write sticky notes. The notes are saved
+ automatically when you exit the program, and they display when you open the
+ program.  The program supports printing and mailing your notes.

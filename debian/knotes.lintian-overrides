@@ -1,0 +1,6 @@
+# private libraries
+knotes: package-name-doesnt-match-sonames libknotesprivate5 libnotesharedprivate5
+# private library
+knotes: no-symbols-control-file
+# akonadi agent, not something to be run manually by the user
+knotes: no-manual-page usr/bin/akonadi_*_agent

@@ -1,0 +1,181 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: knotes
+Upstream-Contact: kde-devel@kde.org
+Source: https://invent.kde.org/pim/knotes
+
+Files: *
+Copyright: 1998, Bjarni R. Einarsson
+           2000-2004, Cornelius Schumacher <schumacher@kde.org>
+           2003, Daniel Martin <daniel.martin@pirack.com>
+           2002-2003, Daniel Molkentin <molkentin@kde.org>
+           1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+           2000, Jesús Bravo Álvarez
+           2005, KDE Russian translation team
+           2000-2002, KDE e.v
+           1997-2017, KNotes authors
+           2003-2016, Kontact authors
+           2013-2017, Laurent Montel <montel@kde.org>
+           2000-2002, Meni Livne <livne@kde.org>
+           2004-2006, Michael Brade <brade@kde.org>
+           1998-1999, Preston Brown <pbrown@kde.org>
+           1998-2017, This_file_is_part_of_KDE
+           2003, Tobias Koenig <tokoe@kde.org>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2009, Sune Vuorela <debian@pusling.com>
+License: LGPL-2+
+
+Files: doc/knotes/index.docbook
+       po/ca/docs/knotes/*
+       po/de/docs/knotes/*
+       po/es/docs/knotes/*
+       po/et/docs/knotes/*
+       po/it/docs/knotes/*
+       po/nl/docs/knotes/*
+       po/pt/docs/knotes/*
+       po/pt_BR/docs/knotes/*
+       po/sv/docs/knotes/*
+       po/uk/docs/knotes/*
+Copyright: 2000, &Greg.M.Holmes
+           2000, &Greg.M.Holmes; <email
+           1997, Bernd Wuebben &Bernd.Johannes.Wuebben.mail;</para>
+           1997, d'en Bernd Wuebben &Bernd.Johannes.Wuebben.mail;</para>
+License: GFDL-1.2+
+
+Files: po/ca/akonadi_notes_agent.po
+       po/ca/libnoteshared.po
+       po/ca@valencia/akonadi_notes_agent.po
+       po/ca@valencia/libnoteshared.po
+       po/uk/akonadi_notes_agent.po
+       po/uk/knotes.po
+       po/uk/libnoteshared.po
+Copyright: 2000-2018, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+Files: noteshared/src/attributes/notelockattribute.cpp
+       noteshared/src/attributes/notelockattribute.h
+       src/kontactplugin/knotes_plugin.cpp
+       src/kontactplugin/knotesplugin.desktop
+Copyright: 2002, Daniel Molkentin <molkentin@kde.org>
+           2010, Klarälvdalens Datakonsult AB
+           2003-2018, Kontact authors
+           a KDAB Group company <info@kdab.net>
+           author Stephen Kelly <stephen@kdab.com>
+License: LGPL-2+
+
+Files: cmake/*
+Copyright: 2016, Montel Laurent <montel@kde.org>
+License: BSD-3-clause
+
+Files: src/data/org.kde.knotes.appdata.xml
+Copyright: KDE e.V.
+License: CC0-1.0
+
+Files: noteshared/src/resources/metatype.h
+Copyright: 2009, Thomas McGuire <mcguire@kde.org>
+License: LGPL-2+3+KDEeV
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0-1.0
+ CC0 1.0 Universal
+ .
+ CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+ LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+ ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+ INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+ REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+ PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+ THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+ HEREUNDER.
+ .
+ The complete text of the Creative Commons 0 1.0 Universal
+ can be found in `/usr/share/common-licenses/CC0-1.0'.
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ The complete text of the GNU Free Documentation License version 1.2
+ can be found in `/usr/share/common-licenses/GFDL-1.2'.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+ License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2+3+KDEeV
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as published
+ by the Free Software Foundation; either version 2 of the License or
+ ( at your option ) version 3 or, at the discretion of KDE e.V.
+ ( which shall act as a proxy as in section 14 of the GPLv3 ), any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2', likewise,
+ the complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.

@@ -1,0 +1,2 @@
+add_subdirectory(knotes)
+add_subdirectory(akonadi_notes_agent)
